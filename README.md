@@ -1,5 +1,4 @@
 # Crisicle
-## 2-D Game
 
 The game  „Crisicle“ is an endless, score (time) based 2-D Game. 
 
