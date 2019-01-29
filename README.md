@@ -1,5 +1,5 @@
 # Crisicle
-2-D Game
+## 2-D Game
 
 The game  „Crisicle“ is an endless, score (time) based 2-D Game. 
 
@@ -23,7 +23,7 @@ Win 10
 
 ### Target Platform:
 
-Windows Standalone
+Android
 
 ### Visuals:
 
