@@ -27,6 +27,9 @@ Android
 ### Visuals:
 
 ### Fonts I've used:
+[Nordic Alternative](https://freedesignresources.net/nordic-free-font/)
+[Kust](https://www.behance.net/gallery/33481677/KUST-Free-Brush-Font)
+[Abel](https://fonts.google.com/specimen/Abel?selection.family=Abel)
 
 ### Tutorials I've used:
 
