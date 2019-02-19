@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bb42db736905a0a47bf86f6fc270388b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kust
+  fontNames:
+  - Kust
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50672f224a72ecc49942aee73e1f0007, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
