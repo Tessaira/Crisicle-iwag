@@ -14,7 +14,7 @@ Win 10
 
 ### Unity version:
 
-2018.2.18f1
+2018.2.14f1
 
 ### Visual Studio Version:
 
@@ -36,10 +36,10 @@ Android
 
 ---
 
-progress - 03% finished
+progress - 12% finished
 
 idea: done
 
-concept: in progress
+concept: done
 
-implementation: pending
+implementation: in progress
