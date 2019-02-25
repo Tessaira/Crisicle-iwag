@@ -9,7 +9,7 @@ public class SceneLoader : MonoBehaviour {
     public void PlayBtn()
     {
         // Load Main Level using earlier defined SceneManagement collection
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("MainScene");
 
     }
 
@@ -23,7 +23,7 @@ public class SceneLoader : MonoBehaviour {
     public void RetryBtn()
     {
         // Load Main level; is its own button in case I want to add scores later on
-        SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("MainScene");
 
     }
 
