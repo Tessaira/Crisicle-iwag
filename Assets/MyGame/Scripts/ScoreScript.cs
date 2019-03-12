@@ -5,7 +5,6 @@ public class ScoreScript : MonoBehaviour
 {
     private TextMeshProUGUI watch;
     private float timer;
-    private int interval = 10;
 
 	// Use this for initialization
 	void Start ()
@@ -23,7 +22,6 @@ public class ScoreScript : MonoBehaviour
             Mathf.Floor(timer / 60),
             Mathf.Floor(timer) % 60,
             Mathf.Floor((timer * 100) % 100));
-
 	}
        /*  if(timer > interval)
         {

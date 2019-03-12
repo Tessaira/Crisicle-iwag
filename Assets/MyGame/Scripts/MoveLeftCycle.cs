@@ -12,8 +12,7 @@ public class MoveLeftCycle : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-		transform.position = new Vector2 (transform.position.x + moveSpeed * Time.deltaTime,
-			transform.position.y);
+		transform.position = new Vector2 (transform.position.x + moveSpeed * Time.deltaTime, transform.position.y);
 		
 		if (transform.position.x < leftWayPointX)
 			transform.position = new Vector2 (rightWayPointX, transform.position.y);
