@@ -422,7 +422,7 @@ RectTransform:
   m_LocalScale: {x: 1.0001969, y: 1.0001969, z: 1.0001969}
   m_Children: []
   m_Father: {fileID: 1163594478}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -819,11 +819,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c777f3cc52a81ed4599b9cb38f0c155b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  restartButton: {fileID: 0}
-  highScoreText: {fileID: 0}
-  yourScoreText: {fileID: 0}
-  obstacles: []
-  spawnPoint: {fileID: 0}
+  highScoreText: {fileID: 740543848}
+  yourScoreText: {fileID: 1393805754}
+  obstacles:
+  - {fileID: 314998580}
+  spawnPoint: {fileID: 819918556}
   spawnRate: 2
   timeToBoost: 5
 --- !u!1 &1211899347
@@ -1032,7 +1032,7 @@ RectTransform:
   m_LocalScale: {x: 1.00008, y: 1.00008, z: 1.00008}
   m_Children: []
   m_Father: {fileID: 1163594478}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

@@ -10,7 +10,8 @@ public class MoveLeftCycle : MonoBehaviour {
 	float leftWayPointX = -8f, rightWayPointX = 8f;
 
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		transform.position = new Vector2 (transform.position.x + moveSpeed * Time.deltaTime,
 			transform.position.y);
 		

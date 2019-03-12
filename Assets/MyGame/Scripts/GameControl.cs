@@ -3,19 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameControl : MonoBehaviour {
 
+    private const string HIGHSCORE = "highScore";
+
 	public static GameControl instance = null;
 
-	[SerializeField]
-	GameObject restartButton;
+	//[SerializeField]
+	//GameObject restartButton;
 
 	[SerializeField]
-	Text highScoreText;
+	TextMeshProUGUI highScoreText;
 
 	[SerializeField]
-	Text yourScoreText;
+    TextMeshProUGUI yourScoreText;
 
 	[SerializeField]
 	GameObject[] obstacles;
@@ -40,27 +43,34 @@ public class GameControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
-		if (instance == null) 
+		if (instance == null)
+        { 
 			instance = this;
-		else if (instance != this)
+        }
+        else if (instance != this)
+        { 
 			Destroy (gameObject);
+        }
 
-		restartButton.SetActive (false);
+        //restartButton.SetActive (false);
 		yourScore = 0;
 		gameStopped = false;
 		Time.timeScale = 1f;
-		highScore = PlayerPrefs.GetInt ("highScore");
+		highScore = PlayerPrefs.GetInt (HIGHSCORE);
 		nextSpawn = Time.time + spawnRate;
 		nextBoost = Time.unscaledTime + timeToBoost;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		if (!gameStopped)
+        { 
 			IncreaseYourScore ();
+        }
 
-		highScoreText.tmp = "High Score: " + highScore;
-		yourScoreText.tmp = "Your Score: " + yourScore;
+        highScoreText.text = "High Score: " + highScore;
+		yourScoreText.text = "Your Score: " + yourScore;
 
 		if (Time.time > nextSpawn)
 			SpawnObstacle ();
@@ -69,13 +79,16 @@ public class GameControl : MonoBehaviour {
 			BoostTime ();
 	}
 
-	public void DinoHit()
+	public void CharacterHit()
 	{
 		if (yourScore > highScore)
+        { 
 			PlayerPrefs.SetInt("highScore", yourScore);
-		Time.timeScale = 0;
+        }
+
+        Time.timeScale = 0;
 		gameStopped = true;
-		restartButton.SetActive (true);
+		//restartButton.SetActive (true);
 	}
 
 	void SpawnObstacle()
