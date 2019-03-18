@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212510748515496284}
   - component: {fileID: 61339522026900826}
   - component: {fileID: 50216330119759638}
+  - component: {fileID: 114731256678539506}
   m_Layer: 0
   m_Name: Icicle
   m_TagString: Icicle
@@ -49,8 +50,8 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1348172558596484}
-  m_BodyType: 0
-  m_Simulated: 0
+  m_BodyType: 1
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
@@ -87,6 +88,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.02, y: 1.2926846}
   m_EdgeRadius: 0
+--- !u!114 &114731256678539506
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1348172558596484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b95bff323c08ad419228541b774a293, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212510748515496284
 SpriteRenderer:
   m_ObjectHideFlags: 1
