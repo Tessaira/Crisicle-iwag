@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266569334900764}
   - component: {fileID: 61612970432800808}
+  - component: {fileID: 114210542147496614}
   m_Layer: 0
   m_Name: Gap
   m_TagString: Untagged
@@ -65,3 +66,14 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.87916803}
   m_EdgeRadius: 0
+--- !u!114 &114210542147496614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1741368106875490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 429dc588f62a76144859300fee8c4567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
