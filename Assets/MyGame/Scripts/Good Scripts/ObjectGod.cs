@@ -8,18 +8,24 @@ public class ObjectGod : MonoBehaviour
     [SerializeField] private float gap;
     [SerializeField] private GameObject icicle;
     [SerializeField] private GameObject player;
-    [SerializeField] private float yOffsetGround;
+    [SerializeField] private float yOffsetGround, xOffsetGround;
+
 
     private void SpawnLayer()
     {
         GameObject tempGround = Instantiate(
             ground,
-            new Vector3(player.transform.position.x + ground.GetComponent<BoxCollider2D>().size.x * 2 + gap, player.transform.position.y - yOffsetGround, 0),
+            new Vector3(player.transform.position.x + xOffsetGround + gap, player.transform.position.y - yOffsetGround, 0),
             Quaternion.identity);
     }
 
     private void Start()
     {
+        GameObject tempGround = Instantiate(
+            ground,
+            new Vector3(player.transform.position.x, player.transform.position.y - yOffsetGround, 0),
+            Quaternion.identity);
+
         SpawnLayer();
     }
 }
