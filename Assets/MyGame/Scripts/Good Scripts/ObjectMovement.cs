@@ -2,8 +2,13 @@
 
 public class ObjectMovement : MonoBehaviour
 {
+    public GameObject[] MovingObjects;
+
     private void Update ()
     {
-        transform.position += new Vector3(-1 * GlobalVariables.objectMovingSpeed, 0 , 0);
+        foreach (GameObject singleObject in MovingObjects)
+        {
+            singleObject.transform.position += new Vector3(-1 * GlobalVariables.objectMovingSpeed, 0 , 0);
+        }
     }
 }
