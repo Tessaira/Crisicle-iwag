@@ -21,8 +21,6 @@ GameObject:
   - component: {fileID: 4979412793773666}
   - component: {fileID: 212534236132374450}
   - component: {fileID: 61765668368122538}
-  - component: {fileID: 114387252188640534}
-  - component: {fileID: 114140323261406572}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Ground
@@ -68,32 +66,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.6, y: 4.28}
   m_EdgeRadius: 0
---- !u!114 &114140323261406572
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1820789930150296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e0c813115fc8e94b8dde35ea2341d92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MovingObjects: []
---- !u!114 &114387252188640534
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1820789930150296}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0df7105f17e6f2945b9ce90986a370a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: -1
-  leftWayPointX: -13
-  rightWayPointX: 13
 --- !u!212 &212534236132374450
 SpriteRenderer:
   m_ObjectHideFlags: 1

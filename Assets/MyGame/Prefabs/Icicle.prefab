@@ -22,8 +22,6 @@ GameObject:
   - component: {fileID: 212510748515496284}
   - component: {fileID: 61339522026900826}
   - component: {fileID: 50216330119759638}
-  - component: {fileID: 114957333851037472}
-  - component: {fileID: 114861466946031180}
   m_Layer: 0
   m_Name: Icicle
   m_TagString: Icicle
@@ -89,31 +87,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.02, y: 17.68}
   m_EdgeRadius: 0
---- !u!114 &114861466946031180
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348172558596484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e0c813115fc8e94b8dde35ea2341d92, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114957333851037472
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1348172558596484}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0df7105f17e6f2945b9ce90986a370a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: -1
-  leftWayPointX: -13
-  rightWayPointX: 13
 --- !u!212 &212510748515496284
 SpriteRenderer:
   m_ObjectHideFlags: 1
