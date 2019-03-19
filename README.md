@@ -20,9 +20,17 @@ Win 10
 
 15.9.4 , Community
 
-### Target Platform:
+### Target Platform, Reference Resolution:
 
-Android
+Android, 16:9 / 1920 x 1080 px
+
+### RunTime Version:
+
+.NET 3.5 Equivalent
+
+### API Level:
+
+.NET 2.0 Subset
 
 ### Visuals:
 
@@ -40,10 +48,11 @@ Android
 
 [Click specific area](https://docs.unity3d.com/ScriptReference/Camera.ScreenToWorldPoint.html)
 
-[Leon](https://github.com/RIPinPuppers)
+[Leon](https://github.com/RIPinPuppers) - clearly the biggest tutorial and u know it
+
 ---
 
-progress - 90% finished
+progress - 75% finished
 
 idea: done
 
@@ -53,6 +62,9 @@ implementation: in progress
 
 ---
 
+### Original Concept
+
+
 ### What's not working yet
 
-Scores
+Scores, Speed
