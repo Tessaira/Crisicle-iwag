@@ -33,13 +33,20 @@ Android
 
 ### Tutorials I've used:
 [Spawning objects](https://www.youtube.com/watch?v=OMjZj-C40M4)
-
+[Click specific area](https://docs.unity3d.com/ScriptReference/Camera.ScreenToWorldPoint.html)
+[Leon](https://github.com/RIPinPuppers) biggest "tutorial" ever and u know it
 ---
 
-progress - 12% finished
+progress - 90% finished
 
 idea: done
 
 concept: done
 
 implementation: in progress
+
+---
+
+### What's not working yet
+
+Scores
