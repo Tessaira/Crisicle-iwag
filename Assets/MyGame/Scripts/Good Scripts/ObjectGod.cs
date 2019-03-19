@@ -38,12 +38,13 @@ public class ObjectGod : MonoBehaviour
             Quaternion.identity);
         objectMovement.MovingObjects.Add(tempGap);
 
-        GameObject tempWalkColldier = Instantiate(
+        GameObject tempWalkCollider = Instantiate(
            walkCollider,
            new Vector3(player.transform.position.x + groundSize / 2 + gap / 2, player.transform.position.y - yOffsetGround, 0),
            Quaternion.identity);
-        tempWalkColldier.SetActive(false);
-        objectMovement.MovingObjects.Add(tempWalkColldier);
+        tempWalkCollider.SetActive(false);
+        tempGap.GetComponent<DropStopScript>().walkCollider = tempWalkCollider;
+        objectMovement.MovingObjects.Add(tempWalkCollider);
 
     }
 }
