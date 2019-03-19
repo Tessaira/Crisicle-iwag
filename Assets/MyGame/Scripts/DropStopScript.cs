@@ -9,6 +9,7 @@ public class DropStopScript : MonoBehaviour
         if (collision.CompareTag(GlobalVariables.icicle))
         {
             collision.GetComponentInParent<Rigidbody2D>().simulated = false;
+            collision.GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 }
