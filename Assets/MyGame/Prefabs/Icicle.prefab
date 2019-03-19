@@ -155,8 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dropStop: {fileID: 1775229521218864}
-  minClickAmount: 0
-  maxClickAmount: 3
+  minClickAmount: 2
+  maxClickAmount: 6
 --- !u!212 &212510748515496284
 SpriteRenderer:
   m_ObjectHideFlags: 1
