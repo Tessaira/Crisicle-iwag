@@ -27,14 +27,20 @@ Android
 ### Visuals:
 
 ### Fonts I've used:
+
 [Nordic Alternative](https://freedesignresources.net/nordic-free-font/)
+
 [Kust](https://www.behance.net/gallery/33481677/KUST-Free-Brush-Font)
+
 [Abel](https://fonts.google.com/specimen/Abel?selection.family=Abel)
 
 ### Tutorials I've used:
+
 [Spawning objects](https://www.youtube.com/watch?v=OMjZj-C40M4)
+
 [Click specific area](https://docs.unity3d.com/ScriptReference/Camera.ScreenToWorldPoint.html)
-[Leon](https://github.com/RIPinPuppers) biggest "tutorial" ever and u know it
+
+[Leon](https://github.com/RIPinPuppers)
 ---
 
 progress - 90% finished
